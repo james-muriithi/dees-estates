@@ -4,7 +4,7 @@
       <router-link :to="{ name: 'home' }" class="flex items-center">
         <img src="@/assets/images/logo.svg" class="mr-3 h-5" alt="Logo" />
       </router-link>
-      
+
       <NavbarToggleButton />
 
       <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
@@ -17,11 +17,11 @@
           <li
             v-for="({ title, routeName }, index) in navItems"
             :key="index"
-            class="flex"
+            class="flex font-normal"
           >
             <router-link
               :to="{ name: routeName }"
-              active-class="text-primary font-bold"
+              active-class="text-primary font-medium"
               exact
               class="
                 block
@@ -30,7 +30,6 @@
                 pl-3
                 text-dark
                 rounded
-                font-normal
                 md:bg-transparent md:px-1 md:py-0
                 my-auto
               "
@@ -41,9 +40,7 @@
           </li>
 
           <li class="md:pl-10">
-            <button class="bg-secondary text-light rounded-lg py-2 px-3">
-              Get Started
-            </button>
+            <ActionButton />
           </li>
         </ul>
       </div>

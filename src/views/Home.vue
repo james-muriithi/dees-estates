@@ -1,5 +1,12 @@
 <template>
-    <div class="container mx-auto lg:container-fluid">
-        
-    </div>
+  <hr />
+  <Banner class="px-2 sm:px-4" />
 </template>
+
+<script>
+import Banner from "../components/Banner.vue";
+export default {
+  components: { Banner },
+  name: "Home",
+};
+</script>
