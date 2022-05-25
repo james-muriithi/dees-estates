@@ -24,7 +24,7 @@
       >
         <div class="service-icon py-4">
           <img
-            :src="getImageUrl(`./assets/images/${image}`)"
+            :src="`/src/assets/images/${image}`"
             :alt="title"
             class="h-18 w-auto mx-auto"
           />
@@ -41,7 +41,6 @@
 </template>
 
 <script>
-import { getImageUrl } from "../utils/functions";
 
 export default {
   name: "HowItWorks",
@@ -68,9 +67,6 @@ export default {
         },
       ],
     };
-  },
-  methods: {
-    getImageUrl,
   },
 };
 </script>

@@ -19,7 +19,7 @@
         <div class="relative">
           <div class="banner-property">
             <img
-              src="@/assets/images/banner-property.png"
+              src="@images/banner-property.png"
               class="object-fit rounded-tr-50 rounded-bl-50"
               alt="property"
             />

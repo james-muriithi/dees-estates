@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="md:pr-20">
         <img
-          src="@/assets/images/why-us.png"
+          src="@images/why-us.png"
           class="object-fit rounded-tr-50 rounded-bl-50"
           alt="property"
         />
