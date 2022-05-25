@@ -1,5 +1,5 @@
 <template>
-  <button class="bg-secondary text-light rounded-lg py-2 px-3">
+  <button class="bg-secondary text-light rounded-lg py-2 px-3 shadow">
     <slot>
         Get Started
     </slot>
