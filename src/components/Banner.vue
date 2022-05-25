@@ -41,12 +41,6 @@ export default {
 </script>
 
 <style scoped>
-.rounded-tr-50 {
-  border-top-right-radius: 35%;
-}
-.rounded-bl-50 {
-    border-bottom-left-radius: 35%;
-}
 .dot {
     bottom: 0;
     left: 0;

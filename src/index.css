@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 @layer components {
-body,
-html{
-    @apply bg-white h-full;
-}
-#app{
-    @apply h-full
-}
+
+    body,
+    html {
+        @apply bg-white h-full;
+    }
+
+    #app {
+        @apply h-full
+    }
 }
 
 .shadow {
     box-shadow: 24px 24px 48px rgba(0, 0, 0, 0.1) !important;
+}
+
+.rounded-tr-50 {
+    border-top-right-radius: 35%;
+}
+
+.rounded-bl-50 {
+    border-bottom-left-radius: 35%;
 }
