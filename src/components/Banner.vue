@@ -1,5 +1,5 @@
 <template>
-  <section class="banner container h-5/6 mx-auto">
+  <section class="banner container min-h-full mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 md:pt-16">
       <div class="order-2 md:order-1 md:pr-7">
         <h1 class="text-4xl lg:text-6xl font-medium text-primary">

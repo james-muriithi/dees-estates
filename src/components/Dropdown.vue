@@ -57,7 +57,7 @@
           <li v-for="value in values" :key="value" @click="selectValue(value)">
             <a
               href="#"
-              class="block px-4 py-2 hover:bg-secondary hover:text-white"
+              class="block px-4 py-2 hover:bg-secondary hover:text-white transition duration-300"
               :class="{'bg-secondary text-light': selectedValue === value}"
             >
               {{ value }}
