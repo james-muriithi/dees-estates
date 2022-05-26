@@ -41,9 +41,11 @@
 </template>
 
 <script>
+import imageUrl from "@/mixins/imageUrl";
 
 export default {
   name: "HowItWorks",
+  mixins: [ imageUrl ],
   data() {
     return {
       processes: [
@@ -68,10 +70,5 @@ export default {
       ],
     };
   },
-  methods: {
-    getImageUrl (name) {
-        return new URL(name, import.meta.url).href
-    }
-  }
 };
 </script>
