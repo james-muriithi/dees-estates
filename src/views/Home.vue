@@ -4,6 +4,7 @@
   <HowItWorks class="pb-24" />
   <WhyUs />
   <FeaturedProperties />
+  <Testimonials />
 </template>
 
 <script>
@@ -11,8 +12,9 @@ import Banner from "../components/Banner.vue";
 import HowItWorks from '../components/HowItWorks.vue';
 import WhyUs from '../components/WhyUs.vue';
 import FeaturedProperties from "../components/FeaturedProperties.vue";
+import Testimonials from '../components/Testimonials.vue';
 export default {
-  components: { Banner, HowItWorks, WhyUs, FeaturedProperties },
+  components: { Banner, HowItWorks, WhyUs, FeaturedProperties, Testimonials },
   name: "Home",
 };
 </script>
