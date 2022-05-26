@@ -24,7 +24,7 @@
       >
         <div class="service-icon py-4">
           <img
-            :src="`/src/assets/images/${image}`"
+            :src="getImageUrl(`/src/assets/images/${image}`)"
             :alt="title"
             class="h-18 w-auto mx-auto"
           />
@@ -68,5 +68,10 @@ export default {
       ],
     };
   },
+  methods: {
+    getImageUrl (name) {
+        return new URL(name, import.meta.url).href
+    }
+  }
 };
 </script>
