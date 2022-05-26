@@ -13,7 +13,7 @@
         sm:grid-cols-2
         lg:grid-cols-3
         gap-6
-        xl:gap-14
+        xl:gap-20
       "
     >
       <diV
@@ -30,7 +30,7 @@
         "
       >
         <img
-          :src="getImageUrl(`/src/assets/images/${property.image}`)"
+          :src="property.image"
           :alt="property.title"
           class="h-50 w-full object-fit"
         />
@@ -52,11 +52,12 @@
 </template>
 
 <script>
-import imageUrl from "../mixins/imageUrl";
+import image1 from "@/assets/images/palace.png";
+import image2 from "@/assets/images/ivy-rory.png";
+import image3 from "@/assets/images/banner-property.png";
 
 export default {
   name: "FeaturedProperties",
-  mixins: [imageUrl],
   data() {
     return {
       properties: [
@@ -65,21 +66,21 @@ export default {
           type: "Duplex",
           phase: "Lekki, phase 2",
           cost: "$2,000",
-          image: "palace.png",
+          image: image1,
         },
         {
           title: "Ivy Rory",
           type: "Duplex",
           phase: "Lekki, phase 2",
           cost: "$2,000",
-          image: "ivy-rory.png",
+          image: image2,
         },
         {
           title: "Rexona",
           type: "Duplex",
           phase: "Lekki, phase 2",
           cost: "$2,000",
-          image: "banner-property.png",
+          image: image3,
         },
       ],
     };

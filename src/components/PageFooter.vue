@@ -1,6 +1,6 @@
 <template>
   <footer class="py-20 mt-6 bg-primary">
-    <div class="container mx-auto grig grid-cols-3 md:grid-cols-4 gap-10 px-3">
+    <div class="container mx-auto grid grid-cols-3 md:grid-cols-4 gap-10 px-3">
       <div>
         <img src="@images/logolight.svg" class="h-5 mb-4" alt="Dees estates" />
         <p class="text-gray-300">

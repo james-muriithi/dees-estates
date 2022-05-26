@@ -24,7 +24,7 @@
       >
         <div class="service-icon py-4">
           <img
-            :src="getImageUrl(`/src/assets/images/${image}`)"
+            :src="image"
             :alt="title"
             class="h-18 w-auto mx-auto"
           />
@@ -41,11 +41,12 @@
 </template>
 
 <script>
-import imageUrl from "@/mixins/imageUrl";
+import image1 from "@/assets/images/address.svg";
+import image2 from "@/assets/images/smart-house.svg";
+import image3 from "@/assets/images/secure.svg";
 
 export default {
   name: "HowItWorks",
-  mixins: [ imageUrl ],
   data() {
     return {
       processes: [
@@ -53,19 +54,19 @@ export default {
           title: "Find Home",
           description:
             "Our properties are located at prime areas where by there won't be problem with transportation ",
-          image: "address.svg",
+          image: image1,
         },
         {
           title: "Make payments ",
           description:
             "Our estates comes with good network,portable water , 24hrs light and round the clock security.",
-          image: "smart-house.svg",
+          image: image2,
         },
         {
           title: "Make it Official ",
           description:
             "We have been in business for over 32 years,for client outside the country you can trust  us to deliver well. ",
-          image: "secure.svg",
+          image: image3,
         },
       ],
     };

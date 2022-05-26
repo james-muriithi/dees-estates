@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto py-20">
+  <section class="container mx-auto py-20 px-3">
     <h2 class="text-center text-3xl lg:text-4xl text-primary font-bold">
       Testimonials.
     </h2>
