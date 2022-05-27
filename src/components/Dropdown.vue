@@ -49,7 +49,7 @@
           shadow
           w-44
           absolute
-          mt-2
+          md:mt-1
         "
         v-if="show"
       >
