@@ -5,7 +5,7 @@
         <img src="@/assets/images/logo.svg" class="mr-3 h-5" alt="Logo" />
       </router-link>
 
-      <NavbarToggleButton />
+      <NavbarToggleButton @click="$emit('toggleMenu')" />
 
       <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
         <ul
@@ -50,35 +50,14 @@
 
 <script>
 import NavbarToggleButton from "./NavbarToggleButton.vue";
+import navItems from "@/utils/menu";
 
 export default {
   name: "Navbar",
-  data() {
-    return {
-      navItems: [
-        {
-          title: "Home",
-          routeName: "home",
-        },
-        {
-          title: "Rent",
-          routeName: "",
-        },
-        {
-          title: "Land",
-          routeName: "",
-        },
-        {
-          title: "Agent",
-          routeName: "",
-        },
-        {
-          title: "Contact Us",
-          routeName: "",
-        },
-      ],
-    };
-  },
+  emits: ["toggleMenu"],
   components: { NavbarToggleButton },
+  created(){
+    this.navItems = navItems;
+  }
 };
 </script>

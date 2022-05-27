@@ -104,13 +104,13 @@ export default {
 </script>
 
 <style scoped>
-:deep(.slide-in-up-enter-active),
-:deep(.slide-in-up-leave-active) {
+.slide-in-up-enter-active,
+.slide-in-up-leave-active {
   transition: all 0.5s;
   transform: translateY(0);
 }
-:deep(.slide-in-up-enter),
-:deep(.slide-in-up-leave-to) {
+.slide-in-up-enter-from,
+.slide-in-up-leave-to {
   opacity: 0;
   transform: translateY(20px);
 }

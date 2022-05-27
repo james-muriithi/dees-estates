@@ -1,15 +1,16 @@
 <template>
   <section class="container mx-auto py-20">
-    <h2 class="text-center text-3xl lg:text-4xl text-primary font-bold">
-      Our featured properties.
-    </h2>
-    <p class="text-xl text-gray-500 text-center">
-      One of our biggest product to be featured and that has sold out the most.
-    </p>
-    <div class="text-right mt-5">
-        <ActionButton class="py-2 px-4">
-            View more
-        </ActionButton>
+    <div class="px-2">
+      <h2 class="text-center text-3xl lg:text-4xl text-primary font-bold">
+        Our featured properties.
+      </h2>
+      <p class="text-xl text-gray-500 text-center">
+        One of our biggest product to be featured and that has sold out the
+        most.
+      </p>
+    </div>
+    <div class="text-right mt-5 pr-4">
+      <ActionButton class="py-2 px-4"> View more </ActionButton>
     </div>
     <div
       class="
