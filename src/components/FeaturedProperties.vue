@@ -6,6 +6,11 @@
     <p class="text-xl text-gray-500 text-center">
       One of our biggest product to be featured and that has sold out the most.
     </p>
+    <div class="text-right mt-5">
+        <ActionButton class="py-2 px-4">
+            View more
+        </ActionButton>
+    </div>
     <div
       class="
         mt-5
@@ -27,14 +32,17 @@
           hover:shadow-xl
           mx-6
           sm:mx-0
+          rounded-tr-50
         "
       >
-        <img
-          :src="property.image"
-          :alt="property.title"
-          class="h-50 w-full object-fit"
-        />
-        <div class="description mt-4 mb-6 px-3">
+        <router-link to="#">
+          <img
+            :src="property.image"
+            :alt="property.title"
+            class="w-full object-fit h-2/3 rounded-tr-50 rounded-bl-50"
+          />
+        </router-link>
+        <div class="description mt-4 mb-10 px-3">
           <div class="grid grid-cols-2">
             <router-link to="#">
               <h3 class="text-2xl font-medium text-black">

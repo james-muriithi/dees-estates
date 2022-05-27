@@ -1,6 +1,6 @@
 <template>
   <footer class="py-20 mt-6 bg-primary">
-    <div class="container mx-auto grid grid-cols-3 md:grid-cols-4 gap-10 px-3">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-3">
       <div>
         <img src="@images/logolight.svg" class="h-5 mb-4" alt="Dees estates" />
         <p class="text-gray-300">
@@ -29,36 +29,36 @@
 
       <div class="md:flex mt-8 md:mt-0">
         <div class="mx-auto">
-          <h3 class="text-xl text-light font-bold mb-3">Property</h3>
+          <h3 class="text-xl text-light font-bold mb-3">About</h3>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Learning Modules
+            Our Company
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Partnership
+            Career
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Watch demo
+            Investor Relations
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Event
+            Social Impact
           </router-link>
         </div>
       </div>
 
        <div class="md:flex mt-8 md:mt-0">
         <div class="mx-auto">
-          <h3 class="text-xl text-light font-bold mb-3">Property</h3>
+          <h3 class="text-xl text-light font-bold mb-3">Resources</h3>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Learning Modules
+            Contact
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Partnership
+            Give Feedback
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Watch demo
+            Sytems status
           </router-link>
           <router-link to="#" class="text-gray-300 block mb-2">
-            Event
+            Privacy Policy
           </router-link>
         </div>
       </div>
