@@ -12,4 +12,4 @@ https://dees-estates.web.app/
 ![Design](./design.png)
 
 ## Licence
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
