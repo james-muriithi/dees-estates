@@ -56,9 +56,16 @@
         <ul class="text-sm text-gray-400" aria-labelledby="dropdownLargeButton">
           <li v-for="value in values" :key="value" @click="selectValue(value)">
             <a
-              href="#"
-              class="block px-4 py-2 hover:bg-secondary hover:text-white transition duration-300"
-              :class="{'bg-secondary text-light': selectedValue === value}"
+              class="
+                block
+                px-4
+                py-2
+                hover:bg-secondary hover:text-white
+                transition
+                duration-300
+              "
+              :class="{ 'bg-secondary text-light': selectedValue === value }"
+              @click.prevent=""
             >
               {{ value }}
             </a>
@@ -93,13 +100,11 @@ export default {
       this.selectedValue = value;
       this.show = false;
     },
-    clickAway(){
-        if(this.show) this.show = false
-    }
+    clickAway() {
+      if (this.show) this.show = false;
+    },
   },
-  created(){
-
-  }
+  created() {},
 };
 </script>
 
